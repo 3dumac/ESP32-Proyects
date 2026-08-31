@@ -1,0 +1,11 @@
+Este proyecto  es un proyecto extendido del ejemplo de Espressif CamWebServer, que funciona con el ESP32 Arduino Core 2.0.17 (probado)
+
+Incluye tres mejoras omplementadas.
+
+Watchdog: Revisa el estado de la conexión de red según el intervalo de tiempo configurado (1500 ms) si no esta conectado, realiza la reconexión.
+Control de FPS
+Control de la frecuencia de actualización.
+
+
+This is a Old and rather Obsolete sketch; it only works with a very old version of the ESP32 Arduino core (2.0.2) 
+and is missing all the improvements that espressif have made since then..
